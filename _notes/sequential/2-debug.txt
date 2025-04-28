@@ -1,0 +1,20 @@
+Started
+
+Mode Selected = 1 (URL)
+URL Entered = http://adicc-uae.com/
+Count Threshold = 0
+Timeout Threshold = 3600
+
+Mode Selected = 2 (Excel)
+File path = C:/Uesrs/XYZ/input.xlsx
+Reading file at C:/Uesrs/XYZ/input.xlsx -- Success
+Reading file at C:/Uesrs/XYZ/input.xlsx -- Failure
+Validating Columns -- Success
+
+Target 1 = http://adicc-uae.com/
+Count Threshold = 0
+Timeout Threshold = 3600
+
+Level=1 | Page=3 | Found=2 | Total=34 | URL = http://adicc-uae.com/
+~> Found(1) = info@adicc-uae.com
+~> Found(2) = hello@adicc-uae.com

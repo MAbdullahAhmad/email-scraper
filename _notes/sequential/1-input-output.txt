@@ -1,0 +1,42 @@
+Welcome to Email Scraper !
+
+Select Mode:
+1. Enter URL
+2. Use excel
+
+Enter Option = 1
+Count Threshold = 0
+Timeout Threshold = 3600
+
+Enter Option = 2
+File path = C:/Uesrs/XYZ/input.xlsx
+
+At L1-P3 | F=0 T=34 | http://adicc-uae.com/
+At L1-P3 | F=0 T=34 | http://adicc-uae.com/
+At L1-P3 | F=2 T=34 | http://adicc-uae.com/
+~> Found(1) = info@adicc-uae.com
+~> Found(2) = hello@adicc-uae.com
+
+Enter URL: http://adicc-uae.com/
+Page 1 | Level 0 | Total Emails 1 | http://adicc-uae.com/
+Page 2 | Level 1 | Total Emails 1 | https://adicc-uae.com/
+Page 3 | Level 1 | Total Emails 1 | https://adicc-uae.com/wp-json/
+Page 4 | Level 1 | Total Emails 1 | https://adicc-uae.com/wp-json/wp/v2/pages/7
+Page 5 | Level 1 | Total Emails 1 | https://adicc-uae.com/xmlrpc.php?rsd
+Page 6 | Level 1 | Total Emails 1 | https://adicc-uae.com/wp-json/oembed/1.0/embed?...
+Page 7 | Level 1 | Total Emails 1 | https://adicc-uae.com/wp-json/oembed/1.0/embed?...
+Page 8 | Level 1 | Total Emails 1 | https://adicc-uae.com
+Page 9 | Level 1 | Total Emails 1 | https://adicc-uae.com/about-us/
+Page 10 | Level 1 | Total Emails 1 | https://adicc-uae.com/about-us/#firstPage
+Page 11 | Level 1 | Total Emails 1 | https://adicc-uae.com/about-us/#3rdPage
+Page 12 | Level 1 | Total Emails 1 | https://adicc-uae.com/about-us/#4thPage
+Page 13 | Level 1 | Total Emails 1 | https://adicc-uae.com/about-us/#5thPage
+Page 14 | Level 1 | Total Emails 1 | https://adicc-uae.com/about-us/#6thPage
+Page 15 | Level 1 | Total Emails 1 | https://adicc-uae.com/category/projects/
+Page 16 | Level 1 | Total Emails 1 | http://adicc-uae.com/#3rdPage
+Page 17 | Level 1 | Total Emails 1 | https://adicc-uae.com/careers/
+Page 18 | Level 1 | Total Emails 1 | https://adicc-uae.com/contact-us/
+^C
+Interrupted by user.
+
+Saved 1 emails to /home/stranger/Documents/repo/MAbdullahAhmad/email-scraper/tools/2-python-approach-v3/exports/2025-04-29_00-06-09_emails.csv
