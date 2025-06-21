@@ -50,7 +50,8 @@ def main():
     try:
         # Read the Excel file
         print(f"Reading Excel file: {input_file}")
-        df = pd.read_excel(input_file)
+        # df = pd.read_excel(input_file)
+        df = pd.read_csv(input_file)
         
         # Create results column if it doesn't exist
         if 'Results File' not in df.columns:

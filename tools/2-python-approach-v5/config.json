@@ -1,0 +1,22 @@
+{
+  "max-username-length": 0,
+  "min-username-length": 0,
+  "max-domain-length": 0,
+  "min-domain-length": 0,
+  "exclude-extensions": [
+    ".png",
+    ".jpg",
+    ".jpeg",
+    ".xlsx"
+  ],
+  "do-not-allow-in-username": [
+    ".",
+    "_"
+  ],
+  "target-usernames": [
+    "sales",
+    "info",
+    "admin",
+    "hr"
+  ]
+}
